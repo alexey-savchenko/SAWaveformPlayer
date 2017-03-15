@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804CE2EA1E795408000040E8 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804CE2E91E795408000040E8 /* Plot.swift */; };
+		804CE2EC1E795530000040E8 /* Ed Sheeran - Thinking Out Loud (Capital FM Session).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804CE2EB1E795530000040E8 /* Ed Sheeran - Thinking Out Loud (Capital FM Session).mp3 */; };
+		809C7F461E73FD230014FE4C /* Rondeau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 809C7F451E73FD230014FE4C /* Rondeau.mp3 */; };
+		80CDBBC21E73F89C003ADF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDBBC11E73F89C003ADF0C /* AppDelegate.swift */; };
+		80CDBBC41E73F89C003ADF0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CDBBC31E73F89C003ADF0C /* ViewController.swift */; };
+		80CDBBC71E73F89C003ADF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CDBBC51E73F89C003ADF0C /* Main.storyboard */; };
+		80CDBBC91E73F89C003ADF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80CDBBC81E73F89C003ADF0C /* Assets.xcassets */; };
+		80CDBBCC1E73F89C003ADF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80CDBBCA1E73F89C003ADF0C /* LaunchScreen.storyboard */; };
+		E45BA8ED3258371F4D52A35D /* Pods_wavetest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731CE1D70A5C35D968572D40 /* Pods_wavetest2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289B345805119B5FB62F6470 /* Pods-wavetest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wavetest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-wavetest2/Pods-wavetest2.release.xcconfig"; sourceTree = "<group>"; };
+		731CE1D70A5C35D968572D40 /* Pods_wavetest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wavetest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		804CE2E91E795408000040E8 /* Plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		804CE2EB1E795530000040E8 /* Ed Sheeran - Thinking Out Loud (Capital FM Session).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ed Sheeran - Thinking Out Loud (Capital FM Session).mp3"; sourceTree = "<group>"; };
+		809C7F451E73FD230014FE4C /* Rondeau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rondeau.mp3; sourceTree = "<group>"; };
+		80CDBBBE1E73F89C003ADF0C /* wavetest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wavetest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CDBBC11E73F89C003ADF0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80CDBBC31E73F89C003ADF0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80CDBBC61E73F89C003ADF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80CDBBC81E73F89C003ADF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80CDBBCB1E73F89C003ADF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80CDBBCD1E73F89C003ADF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D307919747DAAE2FC8E3DF /* Pods-wavetest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wavetest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wavetest2/Pods-wavetest2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80CDBBBB1E73F89C003ADF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45BA8ED3258371F4D52A35D /* Pods_wavetest2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A98E47845C4FB7BB5C7EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731CE1D70A5C35D968572D40 /* Pods_wavetest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80CDBBB51E73F89C003ADF0C = {
+			isa = PBXGroup;
+			children = (
+				80CDBBC01E73F89C003ADF0C /* wavetest2 */,
+				80CDBBBF1E73F89C003ADF0C /* Products */,
+				BB56805459111209F37205A4 /* Pods */,
+				14A98E47845C4FB7BB5C7EDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80CDBBBF1E73F89C003ADF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80CDBBBE1E73F89C003ADF0C /* wavetest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80CDBBC01E73F89C003ADF0C /* wavetest2 */ = {
+			isa = PBXGroup;
+			children = (
+				809C7F451E73FD230014FE4C /* Rondeau.mp3 */,
+				80CDBBC11E73F89C003ADF0C /* AppDelegate.swift */,
+				804CE2E91E795408000040E8 /* Plot.swift */,
+				80CDBBC31E73F89C003ADF0C /* ViewController.swift */,
+				804CE2EB1E795530000040E8 /* Ed Sheeran - Thinking Out Loud (Capital FM Session).mp3 */,
+				80CDBBC51E73F89C003ADF0C /* Main.storyboard */,
+				80CDBBC81E73F89C003ADF0C /* Assets.xcassets */,
+				80CDBBCA1E73F89C003ADF0C /* LaunchScreen.storyboard */,
+				80CDBBCD1E73F89C003ADF0C /* Info.plist */,
+			);
+			path = wavetest2;
+			sourceTree = "<group>";
+		};
+		BB56805459111209F37205A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D307919747DAAE2FC8E3DF /* Pods-wavetest2.debug.xcconfig */,
+				289B345805119B5FB62F6470 /* Pods-wavetest2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CDBBBD1E73F89C003ADF0C /* wavetest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CDBBD01E73F89C003ADF0C /* Build configuration list for PBXNativeTarget "wavetest2" */;
+			buildPhases = (
+				193C9086743B98527D8701BA /* [CP] Check Pods Manifest.lock */,
+				80CDBBBA1E73F89C003ADF0C /* Sources */,
+				80CDBBBB1E73F89C003ADF0C /* Frameworks */,
+				80CDBBBC1E73F89C003ADF0C /* Resources */,
+				3FBC86222CF62E3167AB02AC /* [CP] Embed Pods Frameworks */,
+				A0E4CCBFEFDE1810E0B563FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wavetest2;
+			productName = wavetest2;
+			productReference = 80CDBBBE1E73F89C003ADF0C /* wavetest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80CDBBB61E73F89C003ADF0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SuddenlyPancakes;
+				TargetAttributes = {
+					80CDBBBD1E73F89C003ADF0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 58J8NPW4SN;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80CDBBB91E73F89C003ADF0C /* Build configuration list for PBXProject "wavetest2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80CDBBB51E73F89C003ADF0C;
+			productRefGroup = 80CDBBBF1E73F89C003ADF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CDBBBD1E73F89C003ADF0C /* wavetest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80CDBBBC1E73F89C003ADF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CDBBCC1E73F89C003ADF0C /* LaunchScreen.storyboard in Resources */,
+				804CE2EC1E795530000040E8 /* Ed Sheeran - Thinking Out Loud (Capital FM Session).mp3 in Resources */,
+				80CDBBC91E73F89C003ADF0C /* Assets.xcassets in Resources */,
+				80CDBBC71E73F89C003ADF0C /* Main.storyboard in Resources */,
+				809C7F461E73FD230014FE4C /* Rondeau.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		193C9086743B98527D8701BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FBC86222CF62E3167AB02AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wavetest2/Pods-wavetest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E4CCBFEFDE1810E0B563FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wavetest2/Pods-wavetest2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80CDBBBA1E73F89C003ADF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80CDBBC41E73F89C003ADF0C /* ViewController.swift in Sources */,
+				804CE2EA1E795408000040E8 /* Plot.swift in Sources */,
+				80CDBBC21E73F89C003ADF0C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80CDBBC51E73F89C003ADF0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CDBBC61E73F89C003ADF0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80CDBBCA1E73F89C003ADF0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CDBBCB1E73F89C003ADF0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80CDBBCE1E73F89C003ADF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D307919747DAAE2FC8E3DF /* Pods-wavetest2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80CDBBCF1E73F89C003ADF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D307919747DAAE2FC8E3DF /* Pods-wavetest2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80CDBBD11E73F89C003ADF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D307919747DAAE2FC8E3DF /* Pods-wavetest2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 58J8NPW4SN;
+				INFOPLIST_FILE = wavetest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svchdzgn.wavetest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80CDBBD21E73F89C003ADF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289B345805119B5FB62F6470 /* Pods-wavetest2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 58J8NPW4SN;
+				INFOPLIST_FILE = wavetest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.svchdzgn.wavetest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80CDBBB91E73F89C003ADF0C /* Build configuration list for PBXProject "wavetest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CDBBCE1E73F89C003ADF0C /* Debug */,
+				80CDBBCF1E73F89C003ADF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CDBBD01E73F89C003ADF0C /* Build configuration list for PBXNativeTarget "wavetest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CDBBD11E73F89C003ADF0C /* Debug */,
+				80CDBBD21E73F89C003ADF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80CDBBB61E73F89C003ADF0C /* Project object */;
+}
